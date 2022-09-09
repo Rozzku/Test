@@ -1,0 +1,71 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+}
+
+body{
+    background-color: rgb(218, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* MAIN STYLE */
+.container{
+    /* background-color: antiquewhite; */
+    width: 85%;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.container .card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    /* align-items: center; */
+}
+
+.container .card img{
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container .card span{
+    color: rgb(95, 95, 94);
+    margin-top: 5px;
+}
+
+.container .card h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container .card .btn{
+    margin-top: 20px;
+}
+
+.container .card .btn a{
+    background-color: rgb(160, 136, 91);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
